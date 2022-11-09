@@ -12,14 +12,14 @@ export default function PromotionBlock () {
             <Image src={bookCover} alt="book cover" width={180}/>
             <div>
               <h2>Cool Book</h2>
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate perspiciatis eius nulla quis fugit repudiandae alias excepturi deserunt laudantium doloremque consequatur ut? Temporibus odit voluptates ad expedita nostrum delectus?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate perspiciatis eius nulla quis fugit repudiandae alias excepturi deserunt laudantium doloremque consequatur ut? Temporibus odit voluptates ad expedita nostrum delectus?</p>
             </div>
           </div>
           <div className="promotion-item">
             <Image src={bookCover} alt="book cover" width={180}/>
             <div>
               <h2>Cool Book</h2>
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate perspiciatis eius nulla quis fugit repudiandae alias excepturi deserunt laudantium doloremque consequatur ut? Temporibus odit voluptates ad expedita nostrum delectus?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate perspiciatis eius nulla quis fugit repudiandae alias excepturi deserunt laudantium doloremque consequatur ut? Temporibus odit voluptates ad expedita nostrum delectus?</p>
             </div>
           </div>
         </div>

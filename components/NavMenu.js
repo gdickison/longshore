@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-// import logo from '../public/logo.png'
+import jared from '../public/jared_heather.jpg'
 import menu from '../public/menu_burger.png'
 
 export default function NavMenu () {
@@ -8,23 +8,25 @@ export default function NavMenu () {
     <nav className="nav-menu-container">
       <Link href='/'>
         {/* <Image src={logo} alt="Christ Church Logo" width={300}/> */}
-        <div className="placeholder">Image</div>
+        <div className="placeholder">
+          <Image src={jared} alt="jared" className="nav-image"/>
+        </div>
       </Link>
       <ul className="nav-menu-links">
         <li className="nav-menu-link">
-          <Link href='#'>First</Link>
+          <Link href='#'>Blog</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Second</Link>
+          <Link href='#'>Audio</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Third</Link>
+          <Link href='#'>Video</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Fourth</Link>
+          <Link href='#'>Reading List</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Fifth</Link>
+          <Link href='#'>About</Link>
         </li>
         <li className="nav-menu-link">
           <Link href='#'>Contact</Link>

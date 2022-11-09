@@ -1,5 +1,5 @@
 .nav-menu-container {
-  padding: 1rem 6rem;
+  padding: 0 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,17 +9,22 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #fff;
+  color: #fff;
   border: 2px solid red;
+  background-color: #444;
 }
 
 .placeholder {
-  width: 150px;
-  height: 100px;
-  border: 1px solid blue;
+  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav-image {
+  border-radius: 100%;
+  width: 150px;
+  height: auto;
 }
 
 .nav-menu-links {
@@ -29,6 +34,10 @@
   font-size: 1.1rem;
   padding: 0;
   gap: 2rem;
+}
+
+.nav-menu-link {
+  font-family: Raleway;
 }
 
 .nav-menu-burger {
@@ -58,5 +67,10 @@
 @media screen and (max-width: 475px) {
   .nav-menu-container {
     padding: 1rem;
+  }
+
+  .nav-image {
+    width: 100px;
+    height: auto;
   }
 }
