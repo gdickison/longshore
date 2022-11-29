@@ -1,6 +1,6 @@
 .promotion-block-container {
-  border: 2px solid lawngreen;
   padding: 0 1rem;
+  border-top: 1px solid #aaa;
 }
 
 .promotion-items {

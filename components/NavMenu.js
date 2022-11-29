@@ -14,22 +14,22 @@ export default function NavMenu () {
       </Link>
       <ul className="nav-menu-links">
         <li className="nav-menu-link">
-          <Link href='#'>Blog</Link>
+          <Link href='/blog'>Blog</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Audio</Link>
+          <Link href='/audio'>Audio</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Video</Link>
+          <Link href='/video'>Video</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Reading List</Link>
+          <Link href='/reading-list'>Reading List</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>About</Link>
+          <Link href='/about'>About</Link>
         </li>
         <li className="nav-menu-link">
-          <Link href='#'>Contact</Link>
+          <Link href='/contact'>Contact</Link>
         </li>
       </ul>
       <div className="nav-menu-burger">

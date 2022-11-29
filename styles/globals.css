@@ -49,3 +49,22 @@ a {
   margin-inline: 2rem;
   max-width: 1600px;
 }
+
+.page-container {
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-iframe {
+  width: 50%;
+  aspect-ratio: 16 / 9;
+}

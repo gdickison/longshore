@@ -91,7 +91,7 @@ export default function Blog () {
           />
         </div>
           <div className="blog-container-see-all">
-            <Link href="/">
+            <Link href="/blog">
               <h2>
                 See All Posts
               </h2>

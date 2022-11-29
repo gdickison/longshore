@@ -1,17 +1,8 @@
 .blog-container {
   width: 100%;
   height: auto;
-  border: 2px solid orange;
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
-
-.left-side {
-  border: 2px solid lightcoral;
-}
-
-.right-side {
-  border: 2px solid purple;
 }
 
 .blog-container-title {
